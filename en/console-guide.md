@@ -10,7 +10,7 @@ Followings are the items required to prepare an instance template.
     <th>Description</th>
   </tr>
   <tr>
-    <td rowspan="2">Template info</td>
+    <td rowspan="2">Template information</td>
     <td>Name</td>
     <td>Instance template name</td>
   </tr>
@@ -72,7 +72,8 @@ Followings are the items required to prepare an instance template.
 </table>
 
 > [Notes]
-> Additional block storage is available after mount processing through reservation script. See [Block storage guide](/Storage/Block%20Storage/ko/overview/#_2) for the mount processing through reservation script.
+> Additional block storage is available after mount processing through reservation script. See [Block storage guide](/Storage/Block%20Storage/en/overview/#_2) for the mount processing through reservation script.
+
 <br/>
 
 > [Caution]
