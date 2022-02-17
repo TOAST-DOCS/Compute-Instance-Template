@@ -66,13 +66,13 @@ Followings are the items required to prepare an instance template.
     <td>Set the name, type, and size of the disc to be assigned additionally to the instance to be created</td>
   </tr>   
   <tr>
-    <td>Reservation script</td>
+    <td>User script</td>
     <td>Script to be executed immediately after booting from the instance to be created</td>
   </tr>
 </table>
 
 > [Notes]
-> Additional block storage is available after mount processing through reservation script. See [Block storage guide](/Storage/Block%20Storage/en/overview/#_2) for the mount processing through reservation script.
+> Additional block storage is available after mount processing through user script. See [Block storage guide](/Storage/Block%20Storage/en/overview/#_2) for the mount processing through user script.
 
 <br/>
 

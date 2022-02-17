@@ -14,7 +14,7 @@ The instance template pre-defines the following components constituting the inst
 * **Floating IP**: Whether to use a floating IP
 * **Security group**: Set the instance network security
 * **Additional block storage**: Type and capacity of the disc to be additionally connected to the instance
-* **Reservation script**: Script to be automatically executed during the initial booting after Create Instance
+* **User script**: Script to be automatically executed during the initial booting after Create Instance
 
 > [Notes]
 > The role of the instance template is simply to store the component information.
