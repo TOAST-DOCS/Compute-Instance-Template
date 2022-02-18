@@ -1,12 +1,12 @@
 ## Compute > Instance Template > Console User Guide
 
-### Create an instance template
-Followings are the items required to prepare an instance template.
+### Create an Instance Template
+The following are the items required to prepare an instance template.
 
 <table class="it">
   <tr>
     <th>Category</th>
-    <th>Option</th>
+    <th>Item</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -16,7 +16,7 @@ Followings are the items required to prepare an instance template.
   </tr>
   <tr>
     <td>Description</td>
-    <td>Description on the instance template, up to 255 alphabet characters</td>
+    <td>Description of the instance template, up to 255 alphabet characters</td>
   </tr>
   <tr>
     <td rowspan="7">Instance information</td>
@@ -24,33 +24,33 @@ Followings are the items required to prepare an instance template.
     <td>OS image of the instance to be created</td>
   </tr>
   <tr>
-    <td>Availability area</td>
+    <td>Availability Zone</td>
     <td>Area where the instance will be created</td>
   </tr>
   <tr>
-    <td>Instance name</td>
+    <td>Instance Name</td>
     <td>Name of the instance to be created</td>
   </tr>
   <tr>
-    <td>Instance Type</td>
-    <td>Spec of the instance to be created</td>
+    <td>Flavor</td>
+    <td>Specification of the instance to be created</td>
   </tr>
   <tr>
-    <td>Key pair</td>
-    <td>Key to access to the instance to be created</td>
+    <td>Key Pair</td>
+    <td>Key to access the instance to be created</td>
   </tr>  
   <tr>
-    <td>Block storage type</td>
-    <td>Basic disc type of the instance to be created</td>
+    <td>Block Storage Type</td>
+    <td>Type of the default disk of the instance to be created</td>
   </tr>
   <tr>
-    <td>Block storage size(GB)</td>
-    <td>Basic disc size of the instance to be created<br>The size is restricted by the spec of the instance</td>
+    <td>Block Storage Size (GB)</td>
+    <td>Size of the default disk of the instance to be created<br>The size is restricted by the specification of the instance</td>
   </tr>
   <tr>
     <td rowspan="3">Network information</td>
     <td>Network</td>
-    <td>Network to be connected to the instance to be created<br>When connecting to multiple networks, the first network will be set as the default gateway address</td>
+    <td>Network to connect to the instance to be created<br>If multiple networks are connected, the first network will be set as the default gateway address</td>
   </tr>
   <tr>
     <td>Floating IP</td>
@@ -62,17 +62,17 @@ Followings are the items required to prepare an instance template.
   </tr>
   <tr>
     <td rowspan="2">Additional information</td>
-    <td>Additional block storage</td>
-    <td>Set the name, type, and size of the disc to be assigned additionally to the instance to be created</td>
+    <td>Additional Block Storage</td>
+    <td>Set the name, type, and size of the disk to be additionally assigned to the instance to be created</td>
   </tr>   
   <tr>
-    <td>Reservation script</td>
-    <td>Script to be executed immediately after booting from the instance to be created</td>
+    <td>User Script</td>
+    <td>Script to be executed immediately after booting by the instance to be created</td>
   </tr>
 </table>
 
 > [Notes]
-> Additional block storage is available after mount processing through reservation script. See [Block storage guide](/Storage/Block%20Storage/en/overview/#_2) for the mount processing through reservation script.
+> The additional block storage becomes available after mount processing through a user script. See [block storage guide](/Storage/Block%20Storage/en/overview/#linux) for the mount processing through user script.
 
 <br/>
 
