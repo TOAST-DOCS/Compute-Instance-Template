@@ -78,3 +78,7 @@ The following are the items required to prepare an instance template.
 
 > [Caution]
 > The instance template cannot be modified once created.
+
+### Change Instance Template Owner
+When you click an owner to change, the instance template owned by the owner is displayed. Select an instance template where you want to change the owner to yourself.
+After the change, the instance template can be managed by the key pair you selected when changing the owner.
