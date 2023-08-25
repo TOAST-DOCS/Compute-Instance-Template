@@ -19,7 +19,7 @@ The following are the items required to prepare an instance template.
     <td>Description of the instance template, up to 255 alphabet characters</td>
   </tr>
   <tr>
-    <td rowspan="7">Instance information</td>
+    <td rowspan="8">Instance information</td>
     <td>Image</td>
     <td>OS image of the instance to be created</td>
   </tr>
@@ -47,7 +47,10 @@ The following are the items required to prepare an instance template.
     <td>Block Storage Size (GB)</td>
     <td>Size of the default disk of the instance to be created<br>The size is restricted by the specification of the instance</td>
   </tr>
-  <tr>
+   <tr>
+    <td>Encryption Symmetric Key ID</td>
+    <td>Symmetric key ID of the Secure Key Manager service that will be used to create encrypted block storage.</td>
+  </tr>
     <td rowspan="3">Network information</td>
     <td>Network</td>
     <td>Network to connect to the instance to be created<br>If multiple networks are connected, the first network will be set as the default gateway address</td>
