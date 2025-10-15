@@ -19,7 +19,33 @@ The following are the items required to prepare an instance template.
     <td>Description of the instance template, up to 255 alphabet characters</td>
   </tr>
   <tr>
-    <td rowspan="8">Instance information</td>
+    <td rowspan="2">OS Settings</td>
+    <td>Newly create and configure</td>
+    <td>Create a root block storage by using an image</td>
+  </tr>
+  <tr>
+    <td>Specify the existing resource</td>
+    <td>Use the snapshot previously created</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Root Block Storage</td>
+    <td>Original resource</td>
+    <td>Select the original snapshot to generate a root block storage<br>Block storage type and availability zone cannot be changed, and block storage size can only be scaled out</td>
+  </tr>
+  <tr>
+    <td>Block Storage Type</td>
+    <td>Default disk type of instances to be created</td>
+  </tr>
+  <tr>
+    <td>Block Storage Size (GB)</td>
+    <td>Default disk size of instances to be created<br>Size is limited by the instance's specifications</td>
+  </tr>
+  <tr>
+    <td>Symmetric Key ID</td>
+    <td>Symmetric key ID of the Secure Key Manager service to be used to create encrypted block storage</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Instance Information</td>
     <td>Image</td>
     <td>OS image of the instance to be created</td>
   </tr>
@@ -38,19 +64,8 @@ The following are the items required to prepare an instance template.
   <tr>
     <td>Key Pair</td>
     <td>Key to access the instance to be created</td>
-  </tr>  
-  <tr>
-    <td>Block Storage Type</td>
-    <td>Type of the default disk of the instance to be created</td>
   </tr>
   <tr>
-    <td>Block Storage Size (GB)</td>
-    <td>Size of the default disk of the instance to be created<br>The size is restricted by the specification of the instance</td>
-  </tr>
-   <tr>
-    <td>Encryption Symmetric Key ID</td>
-    <td>Symmetric key ID of the Secure Key Manager service that will be used to create encrypted block storage.</td>
-  </tr>
     <td rowspan="3">Network information</td>
     <td>Network</td>
     <td>Network to connect to the instance to be created<br>If multiple networks are connected, the first network will be set as the default gateway address</td>
