@@ -1,5 +1,7 @@
+<a id="compute-instance-template-console-user-guide"></a>
 ## Compute > Instance Template > Console User Guide
 
+<a id="create-an-instance-template"></a>
 ### Create an Instance Template
 The following are the items required to prepare an instance template.
 
@@ -90,13 +92,14 @@ The following are the items required to prepare an instance template.
 </table>
 
 > [Notes]
-> The additional block storage becomes available after mount processing through a user script. See [block storage guide](/Storage/Block%20Storage/en/overview/#linux) for the mount processing through user script.
+> The additional block storage becomes available after mount processing through a user script. See [block storage guide](/Storage/Block%20Storage/en/overview/#use-empty-block-storage) for the mount processing through user script.
 
 <br/>
 
 > [Caution]
 > The instance template cannot be modified once created.
 
+<a id="change-instance-template-owner"></a>
 ### Change Instance Template Owner
 When you click an owner to change, the instance template owned by the owner is displayed. Select an instance template where you want to change the owner to yourself.
 After the change, the instance template can be managed by the key pair you selected when changing the owner.

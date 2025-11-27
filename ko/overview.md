@@ -1,7 +1,9 @@
+<a id="compute-instance-template-overview"></a>
 ## Compute > Instance Template > 개요
 
 인스턴스 템플릿(Instance Template) 서비스는 자주 사용하는 인스턴스 구성 요소 정보를 미리 정의해 보관하는 서비스입니다. 미리 정의한 인스턴스 템플릿을 이용해 동일한 사양의 인스턴스를 간편하게 생성하거나, 오토스케일을 사용하기 위한 스케일링 그룹을 만들 때 사용할 수 있습니다.
 
+<a id="instance-template-components"></a>
 ## 인스턴스 템플릿 구성 요소
 인스턴스 템플릿은 인스턴스를 구성하는 다음 요소들을 미리 정의해 보관합니다.
 

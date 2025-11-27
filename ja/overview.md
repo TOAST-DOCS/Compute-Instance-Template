@@ -1,7 +1,9 @@
+<a id="compute-instance-template-overview"></a>
 ## Compute > Instance Template > 概要
 
 インスタンステンプレート(Instance Template)サービスは、頻繁に使用するインスタンスの構成要素情報をあらかじめ定義して保管するサービスです。インスタンステンプレートを利用して、同じ仕様のインスタンスを簡単に作成したり、オートスケールを使用するためのスケーリンググループを作成する時に使用できます。
 
+<a id="instance-template-components"></a>
 ## インスタンステンプレートの構成要素
 インスタンステンプレートはインスタンスを構成する次の要素を定義して保管します。
 
