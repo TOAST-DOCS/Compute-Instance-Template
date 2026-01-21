@@ -1,5 +1,7 @@
+<a id="compute-instance-template-console-user-guide"></a>
 ## Compute > Instance Template > 콘솔 사용 가이드
 
+<a id="create-an-instance-template"></a>
 ### 인스턴스 템플릿 생성
 인스턴스 템플릿을 작성할 때 필요한 항목은 다음과 같습니다.
 
@@ -90,13 +92,14 @@
 </table>
 
 > [참고]
-> 추가 블록 스토리지는 사용자 스크립트를 통해 마운트 과정을 거쳐야 사용할 수 있습니다. 사용자 스크립트를 통한 마운트 과정은 [블록 스토리지 가이드](/Storage/Block%20Storage/ko/overview/#_2)를 참고하시기 바랍니다.
+> 추가 블록 스토리지는 사용자 스크립트를 통해 마운트 과정을 거쳐야 사용할 수 있습니다. 사용자 스크립트를 통한 마운트 과정은 [블록 스토리지 가이드](/Storage/Block%20Storage/ko/overview/#use-empty-block-storage)를 참고하시기 바랍니다.
 
 <br/>
 
 > [주의]
 > 인스턴스 템플릿은 한번 생성하면 수정할 수 없습니다.
 
+<a id="change-instance-template-owner"></a>
 ### 인스턴스 템플릿 오너 변경
 변경할 오너를 선택하면 해당 오너가 소유한 인스턴스 템플릿이 표시됩니다. 오너를 본인으로 변경할 인스턴스 템플릿을 선택합니다.
 변경 이후 인스턴스 템플릿은 오너 변경 시 선택한 키 페어로 관리할 수 있습니다. 

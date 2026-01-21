@@ -1,7 +1,9 @@
+<a id="compute-instance-template-overview"></a>
 ## Compute > Instance Template > Overview
 
 The Instance Template is a service that predefines and stores frequently used instance component information. You can use a predefined instance template to create an instance with the same specification easily, or use it to create a scaling group for using Autoscale.
 
+<a id="instance-template-components"></a>
 ## Instance Template Components
 The instance template predefines the following components that compose the instance.
 
