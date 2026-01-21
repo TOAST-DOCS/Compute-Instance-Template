@@ -92,7 +92,7 @@
 </table>
 
 > [参考]
-> 追加ブロックストレージはユーザースクリプトを通してマウントプロセスを踏むと使用できます。ユーザースクリプトによるマウントプロセスは[ブロックストレージガイド](/Storage/Block%20Storage/ja/overview/#use-empty-block-storage)を参照してください。
+> 追加ブロックストレージはユーザースクリプトを通してマウントプロセスを踏むと使用できます。ユーザースクリプトによるマウントプロセスは[ブロックストレージガイド](/Storage/Block%20Storage/ja/overview/#mount-block-storage)を参照してください。
 
 <br/>
 
