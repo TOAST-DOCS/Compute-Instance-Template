@@ -92,7 +92,7 @@ The following are the items required to prepare an instance template.
 </table>
 
 > [Notes]
-> The additional block storage becomes available after mount processing through a user script. See [block storage guide](/Storage/Block%20Storage/en/overview/#use-empty-block-storage) for the mount processing through user script.
+> The additional block storage becomes available after mount processing through a user script. See [block storage guide](/Storage/Block%20Storage/en/overview/#mount-block-storage) for the mount processing through user script.
 
 <br/>
 
