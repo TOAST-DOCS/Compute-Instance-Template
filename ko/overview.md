@@ -1,10 +1,12 @@
+<!-- pre-align:aligned sig=db85864ea9d0 -->
+
 <a id="compute-instance-template-overview"></a>
-## Compute > Instance Template > 개요
+## Compute > Instance Template > 개요 { #compute-instance-template-overview }
 
 인스턴스 템플릿(Instance Template) 서비스는 자주 사용하는 인스턴스 구성 요소 정보를 미리 정의해 보관하는 서비스입니다. 미리 정의한 인스턴스 템플릿을 이용해 동일한 사양의 인스턴스를 간편하게 생성하거나, 오토스케일을 사용하기 위한 스케일링 그룹을 만들 때 사용할 수 있습니다.
 
 <a id="instance-template-components"></a>
-## 인스턴스 템플릿 구성 요소
+## 인스턴스 템플릿 구성 요소 { #instance-template-components }
 인스턴스 템플릿은 인스턴스를 구성하는 다음 요소들을 미리 정의해 보관합니다.
 
 * **이미지**: 인스턴스의 운영체제를 담고 있는 가상 디스크 이미지
