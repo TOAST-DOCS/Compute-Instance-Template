@@ -1,10 +1,8 @@
-<!-- pre-align:aligned sig=23a349eaf7aa -->
-
 <a id="compute-instance-template-console-user-guide"></a>
-## Compute > Instance Template > コンソール使用ガイド { #compute-instance-template-console-user-guide }
+## Compute > Instance Template > コンソール使用ガイド
 
 <a id="create-an-instance-template"></a>
-### インスタンステンプレート作成 { #create-an-instance-template }
+### インスタンステンプレート作成
 インスタンステンプレートを作成する時に必要な項目は次のとおりです。
 
 <table class="it">
@@ -102,6 +100,6 @@
 > インスタンステンプレートは一度作成すると修正できません。
 
 <a id="change-instance-template-owner"></a>
-### インスタンステンプレートオーナーの変更 { #change-instance-template-owner }
+### インスタンステンプレートオーナーの変更
 変更するオーナーを選択すると、当該オーナーが所有するインスタンステンプレートが表示されます。オーナーを本人に変更するインスタンステンプレートを選択します。
 変更後のインスタンステンプレートはオーナー変更時に選択したキーペアで管理できます。 

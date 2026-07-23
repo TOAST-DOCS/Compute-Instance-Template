@@ -1,10 +1,8 @@
-<!-- pre-align:aligned sig=23a349eaf7aa -->
-
 <a id="compute-instance-template-console-user-guide"></a>
-## Compute > Instance Template > Console User Guide { #compute-instance-template-console-user-guide }
+## Compute > Instance Template > Console User Guide
 
 <a id="create-an-instance-template"></a>
-### Create an Instance Template { #create-an-instance-template }
+### Create an Instance Template
 The following are the items required to prepare an instance template.
 
 <table class="it">
@@ -102,6 +100,6 @@ The following are the items required to prepare an instance template.
 > The instance template cannot be modified once created.
 
 <a id="change-instance-template-owner"></a>
-### Change Instance Template Owner { #change-instance-template-owner }
+### Change Instance Template Owner
 When you click an owner to change, the instance template owned by the owner is displayed. Select an instance template where you want to change the owner to yourself.
 After the change, the instance template can be managed by the key pair you selected when changing the owner.
