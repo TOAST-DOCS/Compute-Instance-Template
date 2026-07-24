@@ -1,3 +1,4 @@
+<a id="compute-instance-template-console-user-guide"></a>
 ## Compute > Instance Template > 콘솔 사용 가이드
 
 <a id="create-an-instance-template"></a>
